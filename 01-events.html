@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      body * {
+        margin: 10px;
+        border: 1px solid blue;
+        font-family: Helvetica, sans-serif;
+      }
+      section {
+        margin: 50px;
+      }
+
+      .hightlight{
+        background-color: yellow;
+        text-decoration: line-through;
+      }
+    </style>
+    <title>Event Propagation Beispiel</title>
+    <script  defer src="./01-eventscript.js"></script>
+  </head>
+  <body>
+    <section>
+      Listen-Sektion
+      <button id="addItem">Add Item</button>
+      <ul>
+        Die ungeordnete Liste
+        <li>Listen-Item 1</li>
+        <li>Listen-Item 2</li>
+        <li>Listen-Item 3</li>
+      </ul>
+    </section>
+  </body>
+</html>
